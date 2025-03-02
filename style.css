@@ -1,23 +1,24 @@
 /* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
    HTML content. To learn how to do something, just try searching Google for questions like
    "how to change link color." */
-   background-size: 75% 75%;
+   
 
    body {
+     background-size: 75% 75%;
      background-color: white;
      color: black;
      font-family: Verdana, Geneva, Tahoma, sans-serif;
    }
    
    :link {
-     outline: #8a4bbd;
-     color: #8a4bbd;
+     outline: #a466d6;
+     color: #a466d6;
      /* The default value of background-color is `transparent`. You need to
         specify a different value, otherwise changes on :visited won't apply. */
    }
    
    :visited {
-     outline: #6d3997; 
-     color: #6d3997;          /* Visited links have yellow colored text */
+     outline: #8a4bbd; 
+     color: #8a4bbd;          /* Visited links have yellow colored text */
    }
    
